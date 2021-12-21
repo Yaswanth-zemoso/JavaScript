@@ -1,0 +1,20 @@
+<script type="text/javascript">
+   
+    //set localstroage
+    localStorage.setItem("count", 1);
+
+    //set sessionstroage
+    sessionStorage.setItem("count", 1);
+
+    function addStorage(){
+        localStorage.count = Number(localStorage.count) + 1;
+
+        sessionStorage.count = Number(sessionStorage.count) + 1;
+    }
+
+    window.onbeforeunload = function(){
+        localStorage.removeItem("count");
+    }
+</script>
+
+<button onclick="addStorage()">Add storage</button>
