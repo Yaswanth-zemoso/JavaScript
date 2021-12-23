@@ -1,0 +1,9 @@
+.menuitems{
+    display:flex;
+    width:100%;
+}
+
+.menuitems li {
+    width: 30%;
+    list-style:none;
+}
