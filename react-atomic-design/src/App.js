@@ -6,7 +6,7 @@ import Footer from './organisms/footer';
 
 function App() {
   const props = {
-    className: ["header"]
+    className: ["header header--white header--xs-logo header--menu-activeader"]
   }
   return (
     <LandingPageTemplate 

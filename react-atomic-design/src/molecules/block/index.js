@@ -25,7 +25,6 @@ const Block = (props: Props): React.Element<*> => {
 
     (
     <div class={props.className}>
-        <Button type="search" />
         <List />
     </div>)
     }
