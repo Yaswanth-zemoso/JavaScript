@@ -13,6 +13,7 @@ const Button = (props: Props): React.Element<*> => {
     <button class="button">
       {props.type == 'search' &&
       
+      
       <svg viewBox="0 0 24 24" class="sprite-vue sprite-vue--app sprite-vue--search"><use xlinkHref="#app/search"></use></svg>}
       
     </button>
