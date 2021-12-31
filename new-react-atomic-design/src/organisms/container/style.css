@@ -1,0 +1,11 @@
+.middle-container {
+    max-width: 59rem;
+    margin: 0 auto;
+}
+
+.libraryV2 {
+    position: relative;
+    padding-bottom: 2rem;
+    z-index: 1;
+    overflow: visible;
+}
